@@ -1,4 +1,8 @@
-# FrameBrief Studio
+# Dastaan
+
+**AI-assisted storyboarding studio · Raza Labs by Ali Raza**
+
+![Concept artwork for Dastaan](public/project-cover.webp)
 
 A creative planning workbench that turns a brief into an editable storyboard, an abstract timed animatic, captions, and production notes. Start with the built-in template or connect a local model for a new draft.
 
@@ -78,3 +82,7 @@ The default storyboard is a template. Diffusers renders one planning frame at a 
 Install `requirements.txt` in a local virtual environment and set `PYTHON_BIN` to its Python interpreter before `npm start`. Model weights are downloaded on first use; no paid API is used.
 
 Use `scripts/render_frame.py` or the new local rendering form. One actual seed-7, 12-step CPU frame is displayed in the public demo. The model is `segmind/tiny-sd` under its CreativeML Open RAIL-M terms; model weights are not bundled.
+
+## Visual identity
+
+Original AI-generated concept artwork for the Raza Labs collection, matched to Ali Raza’s midnight-purple and pink portfolio studio. The cover is illustrative artwork; the interactive demo shows the actual prototype. Generation prompt: [ARTWORK.md](ARTWORK.md).

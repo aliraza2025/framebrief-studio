@@ -1,6 +1,8 @@
 # Portfolio card
 
-**FrameBrief Studio**
+**Dastaan**
+
+AI-assisted storyboarding studio · Raza Labs by Ali Raza
 
 Category: Creative AI
 
@@ -17,3 +19,5 @@ Repository: https://github.com/aliraza2025/framebrief-studio
 Demo: https://aliraza2025.github.io/framebrief-studio/
 
 Scope qualification: The default storyboard is a template. Diffusers renders one planning frame at a time; this is not a finished video generator. Visual continuity and production quality need human review. The optional Ollama drafting adapter remains separately configured.
+
+Cover artwork: https://aliraza2025.github.io/framebrief-studio/project-cover.webp

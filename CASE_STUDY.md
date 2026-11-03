@@ -1,4 +1,4 @@
-# FrameBrief Studio — product case study
+# Dastaan — product case study
 
 Stage: independent prototype.
 
