@@ -1,0 +1,17 @@
+{
+  "name": "framebrief-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Creative brief to editable storyboard, timed abstract animatic, captions, and production notes; optional local AI.",
+  "author": "Ali Raza",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test",
+    "build": "node build.mjs"
+  }
+}

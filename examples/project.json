@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "brief": {
+    "brand": "After Hours",
+    "audience": "Independent café owners",
+    "message": "Keep the conversation going after the lights go out.",
+    "objective": "Invite owners to explore an after-hours receptionist demo.",
+    "duration": 30,
+    "format": "portrait"
+  },
+  "mode": "template",
+  "scenes": [
+    {
+      "id": "scene-1",
+      "title": "The moment",
+      "visual": "A quiet closing-time scene for Independent café owners.",
+      "narration": "The day ends. The questions keep coming.",
+      "direction": "Wide establishing shot; a final pool of light.",
+      "duration": 6
+    },
+    {
+      "id": "scene-2",
+      "title": "The friction",
+      "visual": "Hold on a ringing phone beside an empty counter.",
+      "narration": "One missed conversation. One missed opportunity.",
+      "direction": "Close-up; deliberate negative space.",
+      "duration": 6
+    },
+    {
+      "id": "scene-3",
+      "title": "The shift",
+      "visual": "Introduce After Hours through an abstract conversation interface.",
+      "narration": "Keep the conversation going after the lights go out.",
+      "direction": "Slow push-in; one clear visual idea.",
+      "duration": 6
+    },
+    {
+      "id": "scene-4",
+      "title": "The proof to capture",
+      "visual": "Show a real, permission-cleared product interaction. Replace this placeholder before publishing.",
+      "narration": "Show the workflow. Let people inspect it.",
+      "direction": "Screen recording; avoid invented customer results.",
+      "duration": 6
+    },
+    {
+      "id": "scene-5",
+      "title": "The invitation",
+      "visual": "Return to the opening composition with a warmer light.",
+      "narration": "Invite owners to explore an after-hours receptionist demo.",
+      "direction": "Locked frame; leave room for the call to action.",
+      "duration": 6
+    }
+  ]
+}
