@@ -1,0 +1,10 @@
+{
+  "model": "segmind/tiny-sd",
+  "seed": 7,
+  "steps": 12,
+  "width": 384,
+  "height": 256,
+  "elapsedSeconds": 59.392,
+  "prompt": "An empty small cafe counter at closing time, one warm lamp beside a notebook and a telephone, muted green and amber palette, cinematic storyboard illustration, no people, no letters",
+  "limits": "One locally generated planning frame. Visual continuity, production suitability, and output quality need human review."
+}

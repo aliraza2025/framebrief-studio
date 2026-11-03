@@ -35,11 +35,11 @@ OLLAMA_MODEL=your-installed-model npm start
 
 Open the printed local URL and choose **Local AI** before generating. `OLLAMA_BASE_URL` optionally overrides `http://127.0.0.1:11434`. Only use an endpoint you trust: that endpoint receives the submitted brief or transcript. The browser never chooses an arbitrary model endpoint. The server binds to loopback, accepts same-origin requests, bounds request size, times out model calls, and validates the returned artifact. It does not silently substitute a template when AI fails.
 
-The adapter follows Ollama's [chat API](https://docs.ollama.com/api/chat) and [structured-output contract](https://docs.ollama.com/capabilities/structured-outputs). No model server was available during initial verification, so the adapter and failure paths were tested using simulated HTTP responses, not live model inference. A real model's speed and output quality remain to be evaluated.
+The adapter follows Ollama's [chat API](https://docs.ollama.com/api/chat) and [structured-output contract](https://docs.ollama.com/capabilities/structured-outputs). The Ollama adapter was initially tested with simulated responses. The additional local integrations documented below have now been run with actual models; these are separate execution paths.
 
 ## Development
 
-Requires Node.js 22 or newer. No npm packages, API keys, or paid services are needed for the browser demo.
+Requires Node.js 22 or newer. No API keys or paid services are needed for the browser demo. Development integrations have their own listed dependencies.
 
 ```bash
 npm test
@@ -66,3 +66,15 @@ No footage or narration is generated. SVG sheets contain visual and caption exce
 - [Adnan Khan: media](https://adnankhan.ai/media) and [Pasht0](https://adnankhan.ai/work/pasht0): references for pairing a technical portfolio with a creative artifact. No narrative, footage, or character design copied.
 - [Remotion](https://github.com/remotion-dev/remotion): reviewed for a future React video-export path. Its [license](https://github.com/remotion-dev/remotion/blob/main/packages/core/LICENSE.md) has eligibility and company-license conditions; it is not a dependency of this prototype.
 - [Ollama](https://github.com/ollama/ollama), MIT: optional runtime; this repository calls its documented HTTP API and does not bundle model weights.
+
+## Local AI integration update
+
+A brief-to-storyboard studio with editable scenes, timed previews, SRT/SVG exports, and locally verified Diffusers image generation.
+
+Verified: Actual local diffusion frame rendered.
+
+The default storyboard is a template. Diffusers renders one planning frame at a time; this is not a finished video generator. Visual continuity and production quality need human review. The optional Ollama drafting adapter remains separately configured.
+
+Install `requirements.txt` in a local virtual environment and set `PYTHON_BIN` to its Python interpreter before `npm start`. Model weights are downloaded on first use; no paid API is used.
+
+Use `scripts/render_frame.py` or the new local rendering form. One actual seed-7, 12-step CPU frame is displayed in the public demo. The model is `segmind/tiny-sd` under its CreativeML Open RAIL-M terms; model weights are not bundled.

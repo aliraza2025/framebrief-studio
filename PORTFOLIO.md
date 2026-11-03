@@ -1,17 +1,19 @@
 # Portfolio card
 
-Title: FrameBrief Studio
+**FrameBrief Studio**
 
-Category: Creative technology · Storyboarding · Local AI · Human–AI interaction
+Category: Creative AI
 
 Stage: Independent prototype
 
 Role: Product design and development, with AI-assisted implementation
 
-Built a creative planning studio that turns a brief into editable narrative beats, a timed abstract animatic, and production-ready planning exports. Added optional local-model drafting with validated runtime constraints, plus SRT captions, SVG storyboard sheets, and reusable project files.
+A brief-to-storyboard studio with editable scenes, timed previews, SRT/SVG exports, and locally verified Diffusers image generation.
+
+Verification: Actual local diffusion frame rendered.
 
 Repository: https://github.com/aliraza2025/framebrief-studio
 
-Interactive demo: https://aliraza2025.github.io/framebrief-studio/
+Demo: https://aliraza2025.github.io/framebrief-studio/
 
-Use the prototype stage label. Report customer adoption, user research, live model performance, or business impact only after collecting that evidence.
+Scope qualification: The default storyboard is a template. Diffusers renders one planning frame at a time; this is not a finished video generator. Visual continuity and production quality need human review. The optional Ollama drafting adapter remains separately configured.
